@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1460452674 source:d:\network cloud\dropbox\visual studio - project\gnu\spo_lab_4\main.cpp
+	<iostream>
+	<windows.h>
+	<math.h>
+

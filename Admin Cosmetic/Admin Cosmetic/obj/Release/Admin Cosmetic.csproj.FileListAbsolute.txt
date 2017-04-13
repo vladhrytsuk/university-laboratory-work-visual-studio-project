@@ -1,0 +1,35 @@
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\Admin Cosmetic.exe.config
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\Admin Cosmetic.exe
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\Admin Cosmetic.pdb
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\Microsoft.SqlServer.Types.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.AboutProgramm.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.Clients.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.Cosmetic.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.Cotalog.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.DPRC.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.KOTV.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.MainForm.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.ODPRC.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.OUSLUG.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.OWORK.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.Properties.Resources.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.Tariphs.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.Workers.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin_Cosmetic.ZNOY.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin Cosmetic.csproj.GenerateResource.Cache
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\RdlCompile.cache
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\RdlCompile.compiled
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin Cosmetic.exe
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Release\Admin Cosmetic.pdb

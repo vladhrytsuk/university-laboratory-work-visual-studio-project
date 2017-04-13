@@ -1,0 +1,36 @@
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\Admin Cosmetic.exe.config
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\Admin Cosmetic.exe
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\Admin Cosmetic.pdb
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin Cosmetic.csprojResolveAssemblyReference.cache
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.AboutProgramm.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.Clients.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.Cosmetic.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.Cotalog.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.DPRC.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.KOTV.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.MainForm.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.Properties.Resources.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.Tariphs.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.Workers.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.ZNOY.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin Cosmetic.csproj.GenerateResource.Cache
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin Cosmetic.exe
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin Cosmetic.pdb
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.OWORK.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\RdlCompile.cache
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\RdlCompile.compiled
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.OUSLUG.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Admin Cosmetic\Admin Cosmetic\obj\Debug\Admin_Cosmetic.ODPRC.resources

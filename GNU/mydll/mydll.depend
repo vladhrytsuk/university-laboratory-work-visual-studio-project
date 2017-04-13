@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1460450190 source:d:\network cloud\dropbox\visual studio - project\gnu\mydll\main.cpp
+	"main.h"
+	<iostream>
+
+1459329517 d:\network cloud\dropbox\visual studio - project\gnu\mydll\main.h
+	<windows.h>
+

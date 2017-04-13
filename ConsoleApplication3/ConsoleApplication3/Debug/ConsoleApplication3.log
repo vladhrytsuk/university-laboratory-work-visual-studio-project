@@ -1,0 +1,6 @@
+﻿  ConsoleApplication3.cpp
+d:\network cloud\dropbox\visual studio - project\consoleapplication3\consoleapplication3\consoleapplication3.cpp(23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+d:\network cloud\dropbox\visual studio - project\consoleapplication3\consoleapplication3\consoleapplication3.cpp(28): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\network cloud\dropbox\visual studio - project\consoleapplication3\consoleapplication3\consoleapplication3.cpp(39): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\network cloud\dropbox\visual studio - project\consoleapplication3\consoleapplication3\consoleapplication3.cpp(46): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  ConsoleApplication3.vcxproj -> D:\Network Cloud\Dropbox\Visual Studio - Project\ConsoleApplication3\Debug\ConsoleApplication3.exe

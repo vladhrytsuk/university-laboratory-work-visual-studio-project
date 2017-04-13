@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 35 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP50.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/35.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\35\VC\35\DirectDraw.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP50.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/35.pdb" /debug /machine:I386 /out:"Debug/35.exe" /pdbtype:sept  .\Debug\35.obj .\Debug\35Dlg.obj .\Debug\DirectDraw.obj .\Debug\StdAfx.obj .\Debug\35.res "
+<h3>Output Window</h3>
+Compiling...
+DirectDraw.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/35.bsc"  .\Debug\StdAfx.sbr .\Debug\35.sbr .\Debug\35Dlg.sbr .\Debug\DirectDraw.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+35.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

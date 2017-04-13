@@ -1,0 +1,28 @@
+﻿Сборка начата 22.03.2016 12:52:02.
+     1>Проект "D:\Network Cloud\Dropbox\Visual Studio - Project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\ассемблер_лаба 2.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "ассемблер_лаба 2.cpp"
+         ассемблер_лаба 2.cpp
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(69): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(75): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(75): error C2443: конфликт размеров операндов
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(85): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(91): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(95): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(95): error C2443: конфликт размеров операндов
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(109): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(112): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(112): error C2443: конфликт размеров операндов
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(114): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(114): error C2443: конфликт размеров операндов
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(118): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(132): warning C4405: str: идентификатор является зарезервированным словом
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(132): error C2443: конфликт размеров операндов
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(138): error C2443: конфликт размеров операндов
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(143): error C2443: конфликт размеров операндов
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.cpp(147): error C2443: конфликт размеров операндов
+     1>Сборка проекта "D:\Network Cloud\Dropbox\Visual Studio - Project\ассемблер_лаба 2\ассемблер_лаба 2\ассемблер_лаба 2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:04.89

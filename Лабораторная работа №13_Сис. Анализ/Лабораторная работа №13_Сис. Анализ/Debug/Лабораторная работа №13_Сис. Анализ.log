@@ -1,0 +1,14 @@
+﻿Сборка начата 21.12.2015 11:24:27.
+     1>Проект "C:\Users\Greed\Desktop\Visual Studio - Project\Лабораторная работа №13_Сис. Анализ\Лабораторная работа №13_Сис. Анализ\Лабораторная работа №13_Сис. Анализ.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Лабораторная работа №13_Сис. Анализ.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "Лабораторная работа №13_Сис. Анализ.cpp"
+         Лабораторная работа №13_Сис. Анализ.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Greed\Desktop\Visual Studio - Project\Лабораторная работа №13_Сис. Анализ\Лабораторная работа №13_Сис. Анализ\Debug\Лабораторная работа №13_Сис. Анализ.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Greed\Desktop\Visual Studio - Project\Лабораторная работа №13_Сис. Анализ\Лабораторная работа №13_Сис. Анализ\Debug\Лабораторная работа №13_Сис. Анализ.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Greed\Desktop\Visual Studio - Project\Лабораторная работа №13_Сис. Анализ\Лабораторная работа №13_Сис. Анализ\Debug\Лабораторная работа №13_Сис. Анализ.lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\Лабораторная работа №13_Сис. Анализ.obj"
+         Лабораторная работа №13_Сис. Анализ.vcxproj -> C:\Users\Greed\Desktop\Visual Studio - Project\Лабораторная работа №13_Сис. Анализ\Лабораторная работа №13_Сис. Анализ\Debug\Лабораторная работа №13_Сис. Анализ.exe
+     1>Сборка проекта "C:\Users\Greed\Desktop\Visual Studio - Project\Лабораторная работа №13_Сис. Анализ\Лабораторная работа №13_Сис. Анализ\Лабораторная работа №13_Сис. Анализ.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.91

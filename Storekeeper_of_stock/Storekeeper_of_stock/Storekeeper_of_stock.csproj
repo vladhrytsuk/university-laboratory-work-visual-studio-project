@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2A6AED0-D592-4B0A-B79E-AA475E8904CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Storekeeper_of_stock</RootNamespace>
+    <AssemblyName>Storekeeper_of_stock</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutProgramm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutProgramm.designer.cs">
+      <DependentUpon>AboutProgramm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouse.Designer.cs">
+      <DependentUpon>ActivityWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth10.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth11.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth12.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth1.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth2.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth3.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth4.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth5.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth6.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth7.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth8.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityWarehouseMonth9.Designer.cs">
+      <DependentUpon>ActivityWarehouseMonth9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consumer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consumer.Designer.cs">
+      <DependentUpon>Consumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPP.Designer.cs">
+      <DependentUpon>DPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KSY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KSY.Designer.cs">
+      <DependentUpon>KSY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProducts.Designer.cs">
+      <DependentUpon>ManufacturedProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth1.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth10.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth11.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth12.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth2.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth3.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth4.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth5.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth6.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth7.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth8.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManufacturedProductsMonth9.Designer.cs">
+      <DependentUpon>ManufacturedProductsMonth9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NVP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NVP.Designer.cs">
+      <DependentUpon>NVP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OActivityWarehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OActivityWarehouse.Designer.cs">
+      <DependentUpon>OActivityWarehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ODPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ODPP.Designer.cs">
+      <DependentUpon>ODPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OManufacturedProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OManufacturedProducts.Designer.cs">
+      <DependentUpon>OManufacturedProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produсts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produсts.Designer.cs">
+      <DependentUpon>Produсts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spravka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spravka.Designer.cs">
+      <DependentUpon>Spravka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storekeeper_of_stockDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Storekeeper_of_stockDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers.Designer.cs">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Workers.Designer.cs">
+      <DependentUpon>Workers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Сontract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Сontract.Designer.cs">
+      <DependentUpon>Сontract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Сontract_List_Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Сontract_List_Products.Designer.cs">
+      <DependentUpon>Сontract_List_Products.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutProgramm.resx">
+      <DependentUpon>AboutProgramm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouse.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouse.resx">
+      <DependentUpon>ActivityWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth10.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth10.resx">
+      <DependentUpon>ActivityWarehouseMonth10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth11.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth11.resx">
+      <DependentUpon>ActivityWarehouseMonth11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth12.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth12.resx">
+      <DependentUpon>ActivityWarehouseMonth12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth4.resx">
+      <DependentUpon>ActivityWarehouseMonth4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth5.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth1.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth1.resx">
+      <DependentUpon>ActivityWarehouseMonth1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth2.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth2.resx">
+      <DependentUpon>ActivityWarehouseMonth2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth3.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth3.resx">
+      <DependentUpon>ActivityWarehouseMonth3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth4.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth5.resx">
+      <DependentUpon>ActivityWarehouseMonth5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth6.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth6.resx">
+      <DependentUpon>ActivityWarehouseMonth6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth7.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth7.resx">
+      <DependentUpon>ActivityWarehouseMonth7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth8.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth8.resx">
+      <DependentUpon>ActivityWarehouseMonth8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityWarehouseMonth9.rdlc" />
+    <EmbeddedResource Include="ActivityWarehouseMonth9.resx">
+      <DependentUpon>ActivityWarehouseMonth9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consumer.resx">
+      <DependentUpon>Consumer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPP.rdlc" />
+    <EmbeddedResource Include="DPP.resx">
+      <DependentUpon>DPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KSY.resx">
+      <DependentUpon>KSY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProducts.resx">
+      <DependentUpon>ManufacturedProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth1.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth1.resx">
+      <DependentUpon>ManufacturedProductsMonth1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth10.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth10.resx">
+      <DependentUpon>ManufacturedProductsMonth10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth11.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth11.resx">
+      <DependentUpon>ManufacturedProductsMonth11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth12.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth12.resx">
+      <DependentUpon>ManufacturedProductsMonth12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth2.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth2.resx">
+      <DependentUpon>ManufacturedProductsMonth2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth3.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth3.resx">
+      <DependentUpon>ManufacturedProductsMonth3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth4.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth4.resx">
+      <DependentUpon>ManufacturedProductsMonth4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth5.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth5.resx">
+      <DependentUpon>ManufacturedProductsMonth5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth6.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth6.resx">
+      <DependentUpon>ManufacturedProductsMonth6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth7.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth7.resx">
+      <DependentUpon>ManufacturedProductsMonth7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth8.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth8.resx">
+      <DependentUpon>ManufacturedProductsMonth8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManufacturedProductsMonth9.rdlc" />
+    <EmbeddedResource Include="ManufacturedProductsMonth9.resx">
+      <DependentUpon>ManufacturedProductsMonth9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NVP.resx">
+      <DependentUpon>NVP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OActivityWarehouse.resx">
+      <DependentUpon>OActivityWarehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ODPP.resx">
+      <DependentUpon>ODPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ODPPrdlc.rdlc" />
+    <EmbeddedResource Include="OManufacturedProducts.rdlc" />
+    <EmbeddedResource Include="OManufacturedProducts.resx">
+      <DependentUpon>OManufacturedProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produсts.resx">
+      <DependentUpon>Produсts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Spravka.resx">
+      <DependentUpon>Spravka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers.resx">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workers.resx">
+      <DependentUpon>Workers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Сontract.resx">
+      <DependentUpon>Сontract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Сontract_List_Products.resx">
+      <DependentUpon>Сontract_List_Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Storekeeper_of_stockDataSet.xsc">
+      <DependentUpon>Storekeeper_of_stockDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Storekeeper_of_stockDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Storekeeper_of_stockDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Storekeeper_of_stockDataSet.xss">
+      <DependentUpon>Storekeeper_of_stockDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\logo2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

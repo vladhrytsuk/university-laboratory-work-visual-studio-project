@@ -1,0 +1,5 @@
+﻿  ConsoleApplication2.cpp
+d:\network cloud\dropbox\visual studio - project\consoleapplication2\consoleapplication2\consoleapplication2.cpp(217): warning C4244: =: преобразование "double" в "BYTE", возможна потеря данных
+d:\network cloud\dropbox\visual studio - project\consoleapplication2\consoleapplication2\consoleapplication2.cpp(218): warning C4244: =: преобразование "double" в "BYTE", возможна потеря данных
+d:\network cloud\dropbox\visual studio - project\consoleapplication2\consoleapplication2\consoleapplication2.cpp(219): warning C4244: =: преобразование "double" в "BYTE", возможна потеря данных
+  ConsoleApplication2.vcxproj -> D:\Network Cloud\Dropbox\Visual Studio - Project\ConsoleApplication2\Debug\ConsoleApplication2.exe

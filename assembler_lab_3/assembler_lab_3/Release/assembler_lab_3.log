@@ -1,0 +1,28 @@
+﻿Сборка начата 21.03.2016 18:03:10.
+     1>Проект "D:\Network Cloud\Dropbox\Visual Studio - Project\assembler_lab_3\assembler_lab_3\assembler_lab_3.vcxproj" в узле 2 (целевые объекты Build).
+     1>_MASM:
+         Assembling Text.asm...
+         cmd.exe /C "C:\Users\Greed\AppData\Local\Temp\tmpe19f4943d6714d388b434f4d81c06599.cmd"
+         ml.exe /c /nologo /Zi /Fo"Release\Text.obj" /W3 /errorReport:prompt  /TaText.asm
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\assembler_lab_3.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\assembler_lab_3.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt assembler_lab_3.cpp
+         assembler_lab_3.cpp
+     1>assembler_lab_3.cpp(23): warning C4018: <: несоответствие типов со знаком и без знака
+     1>assembler_lab_3.cpp(31): warning C4018: <: несоответствие типов со знаком и без знака
+     1>assembler_lab_3.cpp(35): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Network Cloud\Dropbox\Visual Studio - Project\assembler_lab_3\Release\assembler_lab_3.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Network Cloud\Dropbox\Visual Studio - Project\assembler_lab_3\Release\assembler_lab_3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Network Cloud\Dropbox\Visual Studio - Project\assembler_lab_3\Release\assembler_lab_3.lib" /MACHINE:X86 /SAFESEH Release\assembler_lab_3.obj
+         Release\stdafx.obj
+         Release\Text.obj
+         Создание кода
+         All 33 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+     1>Text.obj : error LNK2026: небезопасный модуль для образа SAFESEH.
+     1>D:\Network Cloud\Dropbox\Visual Studio - Project\assembler_lab_3\Release\assembler_lab_3.exe : fatal error LNK1281: Не удается создать образ SAFESEH.
+     1>Сборка проекта "D:\Network Cloud\Dropbox\Visual Studio - Project\assembler_lab_3\assembler_lab_3\assembler_lab_3.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:04.41

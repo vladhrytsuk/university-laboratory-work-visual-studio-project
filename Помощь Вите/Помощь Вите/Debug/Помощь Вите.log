@@ -1,0 +1,25 @@
+﻿Сборка начата 12.02.2016 0:02:11.
+     1>Проект "D:\Network Cloud\Dropbox\Visual Studio - Project\Помощь Вите\Помощь Вите\Помощь Вите.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Помощь Вите.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "Помощь Вите.cpp"
+         Помощь Вите.cpp
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(25): error C3861: window: идентификатор не найден
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(26): error C2065: BLACK: необъявленный идентификатор
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(26): error C3861: textbackground: идентификатор не найден
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(27): error C2065: YELLOW: необъявленный идентификатор
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(27): error C3861: textcolor: идентификатор не найден
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(29): error C2065: WHITE: необъявленный идентификатор
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(29): error C3861: textbackground: идентификатор не найден
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(33): error C2065: BLACK: необъявленный идентификатор
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(33): error C3861: textcolor: идентификатор не найден
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(48): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(49): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(55): error C2065: BLACK: необъявленный идентификатор
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(55): error C3861: textcolor: идентификатор не найден
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(60): error C2065: YELLOW: необъявленный идентификатор
+     1>d:\network cloud\dropbox\visual studio - project\помощь вите\помощь вите\помощь вите.cpp(60): error C3861: textcolor: идентификатор не найден
+     1>Сборка проекта "D:\Network Cloud\Dropbox\Visual Studio - Project\Помощь Вите\Помощь Вите\Помощь Вите.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.98

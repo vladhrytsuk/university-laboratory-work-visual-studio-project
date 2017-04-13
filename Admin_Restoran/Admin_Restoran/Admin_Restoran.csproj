@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{373ABD5F-0CDC-4F15-8060-8CC63FC79A58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Admin_Restoran</RootNamespace>
+    <AssemblyName>Admin_Restoran</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.11.0.2\lib\net20\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_RestoranDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Admin_RestoranDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AboutProgramm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutProgramm.Designer.cs">
+      <DependentUpon>AboutProgramm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_RestoranDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Admin_RestoranDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_RestoranDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Admin_RestoranDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients.Designer.cs">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clients_in_Restoran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients_in_Restoran.Designer.cs">
+      <DependentUpon>Clients_in_Restoran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantActivities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestaurantActivities.Designer.cs">
+      <DependentUpon>RestaurantActivities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table.Designer.cs">
+      <DependentUpon>Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabless.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabless.Designer.cs">
+      <DependentUpon>Tabless.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Room.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room.Designer.cs">
+      <DependentUpon>Room.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plane_in_Restoran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plane_in_Restoran.Designer.cs">
+      <DependentUpon>Plane_in_Restoran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order_Seat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order_Seat.Designer.cs">
+      <DependentUpon>Order_Seat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List_Table.Designer.cs">
+      <DependentUpon>List_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth1.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth10.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth11.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeat.Designer.cs">
+      <DependentUpon>PreOrderSeat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth12.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth2.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth3.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth4.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth5.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth6.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth7.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth8.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreOrderSeatMonth9.Designer.cs">
+      <DependentUpon>PreOrderSeatMonth9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UseRoomsMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth.Designer.cs">
+      <DependentUpon>UseRoomsMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth1.Designer.cs">
+      <DependentUpon>UseRoomsMonth1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth10.Designer.cs">
+      <DependentUpon>UseRoomsMonth10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth11.Designer.cs">
+      <DependentUpon>UseRoomsMonth11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth12.Designer.cs">
+      <DependentUpon>UseRoomsMonth12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth2.Designer.cs">
+      <DependentUpon>UseRoomsMonth2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth3.Designer.cs">
+      <DependentUpon>UseRoomsMonth3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth4.Designer.cs">
+      <DependentUpon>UseRoomsMonth4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth5.Designer.cs">
+      <DependentUpon>UseRoomsMonth5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth6.Designer.cs">
+      <DependentUpon>UseRoomsMonth6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth7.Designer.cs">
+      <DependentUpon>UseRoomsMonth7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth8.Designer.cs">
+      <DependentUpon>UseRoomsMonth8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UseRoomsMonth9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseRoomsMonth9.Designer.cs">
+      <DependentUpon>UseRoomsMonth9.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutProgramm.resx">
+      <DependentUpon>AboutProgramm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients_in_Restoran.resx">
+      <DependentUpon>Clients_in_Restoran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaurantActivities.rdlc" />
+    <EmbeddedResource Include="RestaurantActivities.resx">
+      <DependentUpon>RestaurantActivities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table.resx">
+      <DependentUpon>Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabless.resx">
+      <DependentUpon>Tabless.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room.resx">
+      <DependentUpon>Room.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plane_in_Restoran.resx">
+      <DependentUpon>Plane_in_Restoran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order_Seat.resx">
+      <DependentUpon>Order_Seat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List_Table.resx">
+      <DependentUpon>List_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth1.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth1.resx">
+      <DependentUpon>UseRoomsMonth1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth10.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth10.resx">
+      <DependentUpon>UseRoomsMonth10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth11.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth11.resx">
+      <DependentUpon>UseRoomsMonth11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth12.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth12.resx">
+      <DependentUpon>UseRoomsMonth12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth2.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth2.resx">
+      <DependentUpon>UseRoomsMonth2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth3.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth3.resx">
+      <DependentUpon>UseRoomsMonth3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth4.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth4.resx">
+      <DependentUpon>UseRoomsMonth4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth5.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth5.resx">
+      <DependentUpon>UseRoomsMonth5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth6.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth6.resx">
+      <DependentUpon>UseRoomsMonth6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth7.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth7.resx">
+      <DependentUpon>UseRoomsMonth7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth8.rdlc" />
+    <EmbeddedResource Include="UseRoomsMonth8.resx">
+      <DependentUpon>UseRoomsMonth8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth9.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth1.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth1.resx">
+      <DependentUpon>PreOrderSeatMonth1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth10.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth10.resx">
+      <DependentUpon>PreOrderSeatMonth10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth11.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth11.resx">
+      <DependentUpon>PreOrderSeatMonth11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth12.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth12.resx">
+      <DependentUpon>PreOrderSeatMonth12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth2.rdlc" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeat.resx">
+      <DependentUpon>PreOrderSeat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth2.resx">
+      <DependentUpon>PreOrderSeatMonth2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth3.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth3.resx">
+      <DependentUpon>PreOrderSeatMonth3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth4.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth4.resx">
+      <DependentUpon>PreOrderSeatMonth4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth5.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth5.resx">
+      <DependentUpon>PreOrderSeatMonth5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth6.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth6.resx">
+      <DependentUpon>PreOrderSeatMonth6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth7.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth7.resx">
+      <DependentUpon>PreOrderSeatMonth7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth8.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth8.resx">
+      <DependentUpon>PreOrderSeatMonth8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreOrderSeatMonth9.rdlc" />
+    <EmbeddedResource Include="PreOrderSeatMonth9.resx">
+      <DependentUpon>PreOrderSeatMonth9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UseRoomsMonth.resx">
+      <DependentUpon>UseRoomsMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UseRoomsMonth9.resx">
+      <DependentUpon>UseRoomsMonth9.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Admin_RestoranDataSet.xsc">
+      <DependentUpon>Admin_RestoranDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Admin_RestoranDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Admin_RestoranDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Admin_RestoranDataSet.xss">
+      <DependentUpon>Admin_RestoranDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Admin_RestoranDataSet1.xsc">
+      <DependentUpon>Admin_RestoranDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Admin_RestoranDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Admin_RestoranDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Admin_RestoranDataSet1.xss">
+      <DependentUpon>Admin_RestoranDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Admin_RestoranDataSet2.xsc">
+      <DependentUpon>Admin_RestoranDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Admin_RestoranDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Admin_RestoranDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Admin_RestoranDataSet2.xss">
+      <DependentUpon>Admin_RestoranDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

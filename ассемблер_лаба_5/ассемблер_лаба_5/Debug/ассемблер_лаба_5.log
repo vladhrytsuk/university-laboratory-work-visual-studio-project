@@ -1,0 +1,17 @@
+﻿Сборка начата 23.03.2016 11:47:32.
+     1>Проект "D:\Network Cloud\Dropbox\Visual Studio - Project\ассемблер_лаба_5\ассемблер_лаба_5\ассемблер_лаба_5.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\ассемблер_лаба_5.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "ассемблер_лаба_5.cpp"
+         ассемблер_лаба_5.cpp
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба_5\ассемблер_лаба_5\ассемблер_лаба_5.cpp(18): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\network cloud\dropbox\visual studio - project\ассемблер_лаба_5\ассемблер_лаба_5\ассемблер_лаба_5.cpp(39): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Network Cloud\Dropbox\Visual Studio - Project\ассемблер_лаба_5\Debug\ассемблер_лаба_5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Network Cloud\Dropbox\Visual Studio - Project\ассемблер_лаба_5\Debug\ассемблер_лаба_5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Network Cloud\Dropbox\Visual Studio - Project\ассемблер_лаба_5\Debug\ассемблер_лаба_5.lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\ассемблер_лаба_5.obj"
+     1>ассемблер_лаба_5.obj : error LNK2019: ссылка на неразрешенный внешний символ _macro_procedure_delete в функции _main
+     1>D:\Network Cloud\Dropbox\Visual Studio - Project\ассемблер_лаба_5\Debug\ассемблер_лаба_5.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+     1>Сборка проекта "D:\Network Cloud\Dropbox\Visual Studio - Project\ассемблер_лаба_5\ассемблер_лаба_5\ассемблер_лаба_5.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:08.26

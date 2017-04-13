@@ -1,0 +1,110 @@
+﻿Сборка начата 08.02.2016 13:40:54.
+     1>Проект "C:\Users\Greed\Desktop\Visual Studio - Project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\ассемблер_лаба1.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\ассемблер_лаба1.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt "ассемблер_лаба1.cpp"
+         ассемблер_лаба1.cpp
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(1): warning C4603: _CRT_NO_WARNINGS_: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+         c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(1): note: Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+         c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(2): note: использование предварительно скомпилированного заголовка
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(43): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(46): error C2065: jmp: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(46): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "start"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(46): error C2065: start: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(46): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "function"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(47): error C2065: xor: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(47): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(47): error C2065: eax: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(48): error C2065: eax: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(48): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "xor"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(48): error C2065: xor: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(48): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(48): error C2065: ebx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(49): error C2065: ebx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(49): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "xor"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(49): error C2065: xor: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(49): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(49): error C2065: ecx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(50): error C2065: ecx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(50): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "xor"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(50): error C2065: xor: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(50): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(50): error C2065: edx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(52): error C2065: edx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(52): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pop"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(53): error C2065: pop: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(53): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(53): error C2065: eax: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(53): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "call"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(54): error C2065: call: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(54): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "printf"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(54): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pop"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(54): warning C4551: в вызове функции отсутствует список аргументов
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(55): error C2065: pop: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(55): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(55): error C2065: ebx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(55): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "call"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(56): error C2065: call: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(56): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "printf"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(56): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pop"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(56): warning C4551: в вызове функции отсутствует список аргументов
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(57): error C2065: pop: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(57): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(57): error C2065: ecx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(57): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "call"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(58): error C2065: call: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(58): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "printf"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(58): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pop"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(58): warning C4551: в вызове функции отсутствует список аргументов
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(59): error C2065: pop: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(59): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(59): error C2065: edx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(59): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "call"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(60): error C2065: call: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(60): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "printf"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(62): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ret"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(62): warning C4551: в вызове функции отсутствует список аргументов
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(62): error C2065: ret: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(62): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "start"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(63): error C2065: mov: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(63): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(63): error C2065: eax: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(64): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "push"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(65): error C2065: push: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(65): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(65): error C2065: eax: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(65): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(65): error C2065: mov: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(65): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(65): error C2065: ebx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(66): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "push"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(67): error C2065: push: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(67): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ebx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(67): error C2065: ebx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(67): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(67): error C2065: mov: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(67): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(67): error C2065: ecx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(68): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "push"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(69): error C2065: push: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(69): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ecx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(69): error C2065: ecx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(69): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(69): error C2065: mov: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(69): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(69): error C2065: edx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(70): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "push"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(72): error C2065: push: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(72): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "edx"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(72): error C2065: edx: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(72): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "call"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(73): error C2065: call: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(73): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "function"
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(73): error C2065: function: необъявленный идентификатор
+     1>c:\users\greed\desktop\visual studio - project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.cpp(73): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>Сборка проекта "C:\Users\Greed\Desktop\Visual Studio - Project\ассемблер_лаба1\ассемблер_лаба1\ассемблер_лаба1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:03.34

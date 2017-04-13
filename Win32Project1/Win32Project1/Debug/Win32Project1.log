@@ -1,0 +1,6 @@
+﻿  Win32Project1.cpp
+d:\network cloud\dropbox\visual studio - project\win32project1\win32project1\win32project1.cpp(1): warning C4603: INITGUID: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  d:\network cloud\dropbox\visual studio - project\win32project1\win32project1\win32project1.cpp(1): note: Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+  d:\network cloud\dropbox\visual studio - project\win32project1\win32project1\win32project1.cpp(2): note: использование предварительно скомпилированного заголовка
+  d:\network cloud\dropbox\visual studio - project\win32project1\win32project1\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Win32Project1.vcxproj -> D:\Network Cloud\Dropbox\Visual Studio - Project\Win32Project1\Debug\Win32Project1.exe

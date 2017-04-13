@@ -1,0 +1,22 @@
+﻿Сборка начата 15.02.2016 11:58:57.
+     1>Проект "D:\Network Cloud\Dropbox\Visual Studio - Project\Spo_lab1_Oleg\Spo_lab1_Oleg\Spo_lab1_Oleg.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Spo_lab1_Oleg.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Spo_lab1_Oleg.cpp
+         Spo_lab1_Oleg.cpp
+     1>d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(8): error C2001: newline в константе
+     1>d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(154): error C2664: "size_t strlen(const char *)": невозможно преобразовать аргумент 1 из "unsigned char [100]" в "const char *"
+         d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(154): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(159): error C2664: "int strcmp(const char *,const char *)": невозможно преобразовать аргумент 1 из "unsigned char [100]" в "const char *"
+         d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(159): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(168): error C2664: "int strcmp(const char *,const char *)": невозможно преобразовать аргумент 2 из "unsigned char [100]" в "const char *"
+         d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(168): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(169): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+     1>d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(176): error C2664: "int strcmp(const char *,const char *)": невозможно преобразовать аргумент 2 из "unsigned char [100]" в "const char *"
+         d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(176): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(178): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+     1>d:\network cloud\dropbox\visual studio - project\spo_lab1_oleg\spo_lab1_oleg\spo_lab1_oleg.cpp(182): warning C4553: ==: оператор не имеет результата; возможно, имелся в виду "="
+     1>Сборка проекта "D:\Network Cloud\Dropbox\Visual Studio - Project\Spo_lab1_Oleg\Spo_lab1_Oleg\Spo_lab1_Oleg.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:01.95

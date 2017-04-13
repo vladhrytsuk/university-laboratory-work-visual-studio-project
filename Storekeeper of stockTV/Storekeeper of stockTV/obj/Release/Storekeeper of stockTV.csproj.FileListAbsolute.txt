@@ -1,0 +1,34 @@
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\Storekeeper of stockTV.exe.config
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\Storekeeper of stockTV.exe
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\Storekeeper of stockTV.pdb
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\Microsoft.SqlServer.Types.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.AboutProgramm.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.Clients.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.KOTV.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.MainForm.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.NVP.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.OActivityWarehouse.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.OTTN.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.OTV.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.Properties.Resources.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.Suppliers.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.TTN.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.TV.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper_of_stockTV.Workers.resources
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper of stockTV.csproj.GenerateResource.Cache
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\RdlCompile.cache
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\RdlCompile.compiled
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper of stockTV.exe
+D:\Network Cloud\Dropbox\Visual Studio - Project\Storekeeper of stockTV\Storekeeper of stockTV\obj\Release\Storekeeper of stockTV.pdb
